@@ -1,6 +1,6 @@
 function runMasks(){
     $('.zip').mask('00000-000')
-    $('.cpf').mask('491.630.498-56')
+    $('.cpf').mask('000.000.000-00')
 }
 
 function getAddress(){

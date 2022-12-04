@@ -1,0 +1,354 @@
+CRITICAL - 2022-12-04 01:43:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:43:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:43:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:43:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:45:12 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:45:12 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:45:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 01:45:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-04 05:27:34 --> Class 'Config\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 05:29:08 --> Class 'Config\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 05:30:01 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 05:30:03 --> Class 'CodeIgniter\Filters\Auth' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 07:09:16 --> Class 'App\Models\UserModel' not found
+in APPPATH\Controllers\Home.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 07:09:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-04 07:09:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 07:10:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-04 07:10:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 07:10:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-04 07:10:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(36): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:38:22 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+in APPPATH\Controllers\Home.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:38:45 --> Argument 2 passed to view() must be of the type array, string given, called in C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php on line 68
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Home.php(68): view('finalizar-compra', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:38:55 --> [] operator not supported for strings
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:38:57 --> [] operator not supported for strings
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:39:09 --> Argument 2 passed to view() must be of the type array, string given, called in C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php on line 69
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Home.php(69): view('finalizar-compra', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 10:55:27 --> number_format() expects parameter 1 to be float, string given
+in APPPATH\Views\carrinho.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format() expects parameter 1 to be float, string given', 'APPPATH\\Views\\carrinho.php', 23, [...])
+ 2 APPPATH\Views\carrinho.php(23): number_format('C:\\Users\\jesse\\Documents\\GitHub\\CupCakeBuy', 2, 'C:\\Users\\jesse\\Documents\\GitHub\\CupCakeBuy', 'C:\\Users\\jesse\\Documents\\GitHub\\CupCakeBuy')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\carrinho.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('carrinho', [], true)
+ 6 APPPATH\Controllers\Home.php(47): view('carrinho', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->cart()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 11:25:18 --> mysqli_sql_exception: Unknown column 'value' in 'field list' in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-04 11:25:18 --> Call to a member function where() on array
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 11:25:50 --> mysqli_sql_exception: Unknown column 'value' in 'field list' in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-04 11:25:50 --> Call to a member function delete() on array
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 11:25:52 --> mysqli_sql_exception: Unknown column 'value' in 'field list' in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(83): CodeIgniter\Model->insert(Array)
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-04 11:25:52 --> Call to a member function delete() on array
+in APPPATH\Controllers\Home.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-04 11:26:19 --> mysqli_sql_exception: Unknown column 'value' in 'field list' in C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\jesse\Documents\GitHub\CupCakeBuy\app\Controllers\Home.php(82): CodeIgniter\Model->insert(Array)
+#8 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(927): App\Controllers\Home->buy('12')
+#9 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\jesse\Documents\GitHub\CupCakeBuy\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\jesse\Documents\GitHub\CupCakeBuy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-04 11:31:55 --> Invalid argument supplied for foreach()
+in APPPATH\Views\consultar-pedidos.php on line 17.
+ 1 APPPATH\Views\consultar-pedidos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\consultar-pedidos.php', 17, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\consultar-pedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('consultar-pedidos', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('consultar-pedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->consultOrders()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 11:40:01 --> date() expects parameter 2 to be int, string given
+in APPPATH\Views\consultar-pedidos.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects parameter 2 to be int, string given', 'APPPATH\\Views\\consultar-pedidos.php', 28, [...])
+ 2 APPPATH\Views\consultar-pedidos.php(28): date('2022-12-04 11:38:15', 'd/m/Y')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\consultar-pedidos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('consultar-pedidos', [], true)
+ 6 APPPATH\Controllers\Home.php(20): view('consultar-pedidos', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->consultOrders()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 11:41:30 --> A non-numeric value encountered
+in APPPATH\Views\consultar-pedidos.php on line 28.
+ 1 APPPATH\Views\consultar-pedidos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Views\\consultar-pedidos.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\consultar-pedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('consultar-pedidos', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('consultar-pedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->consultOrders()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-04 11:46:25 --> Class 'Config\IsAdmin' not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/inicio', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
