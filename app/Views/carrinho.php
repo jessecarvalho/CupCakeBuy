@@ -18,7 +18,7 @@
             <?php foreach ($cart as $item) { ?>
                 <tr>
                     <th scope="row"><?= $item['id'] ?></th>
-                    <td>Donut <?= $item['product'] ?></td>
+                    <td>CupCake <?= $item['product'] ?></td>
                     <td><?= $item['quantity'] ?></td>
                     <td>R$ <?= number_format((float)$item['price'], 2, '.', '')?></td>
                     <td>

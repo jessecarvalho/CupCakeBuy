@@ -7,7 +7,7 @@ function getAddress(){
     $('.zip').on('keyup', function(e){
         if ($(this).val().length == 9) {
             $.ajax({
-                url : "http://viacep.com.br/ws/" + $(this).val().replace('-', '') + "/json",
+                url : "https://viacep.com.br/ws/" + $(this).val().replace('-', '') + "/json",
                 type : 'post',
                 datatype: 'JSON',
            })

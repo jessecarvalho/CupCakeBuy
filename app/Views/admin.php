@@ -20,9 +20,9 @@
                 <?php foreach($purchases as $purchase){?>
                     <tr>
                         <th scope="row"><?= $purchase['id'] ?></th>
-                        <td>Donut <?= $purchase['product'] ?></td>
+                        <td>CupCake <?= $purchase['product'] ?></td>
                         <td><?= $purchase['quantity'] ?></td>
-                        <td><?= $purchase['payment'] == "on" ? 'No dinheiro' : 'No cartão' ?></td>
+                        <td><?= $purchase['payment'] == "money" ? 'No dinheiro' : 'No cartão' ?></td>
                         <td><?= $purchase['delivery'] == "store" ? 'Na loja' : 'Em casa' ?></td>
                         <td>R$ <?= $purchase['price'] ?></td>
                         <td><?= date('d/m/Y', strtotime($purchase['created_at'])) . ' às ' . date('H:i', strtotime($purchase['created_at'])) ?></td>

@@ -33,14 +33,14 @@
                     <div class="mt-3 mb-3">
                         <p><b>Método de pagamento</b></p>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="payment" id="payment"checked>
-                            <label class="form-check-label" for="payment">
+                            <input class="form-check-input" type="radio" name="payment" id="payment_card"checked value="card">
+                            <label class="form-check-label" for="payment_card">
                             Cartão de Crédito
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="payment" id="payment">
-                            <label class="form-check-label" for="payment">
+                            <input class="form-check-input" type="radio" name="payment" id="payment_money" value="money">
+                            <label class="form-check-label" for="payment_money">
                             Dinheiro
                             </label>
                         </div>
